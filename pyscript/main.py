@@ -94,7 +94,7 @@ class PYScript(inkex.Effect):
             'Extension: pyscript v%s <by Frank D. Martinez>' % version,
             'You can write valid python code here.',
             'Your code will be embedded into the document.',
-            'Help: https://github.com/mnesarco/inkscape-pyscript',
+            'Help: https://gitlab.com/mnesarco/inkscape-pyscript',
             '"""']))
         self.scripts[script.id] = script
         return script
