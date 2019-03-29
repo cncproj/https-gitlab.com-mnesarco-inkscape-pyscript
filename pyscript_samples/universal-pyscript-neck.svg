@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:parametric="//fdmtech.com/inkscape/parametric"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   parametric:enabled="true"
+   width="1201.3997mm"
+   height="454.88104mm"
+   viewBox="0 0 1201.3997 454.88103"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   sodipodi:docname="universal-pyscript-neck.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.17792175"
+     inkscape:cx="2145.3213"
+     inkscape:cy="1371.7044"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="20"
+     fit-margin-left="20"
+     fit-margin-right="20"
+     fit-margin-bottom="20"
+     showborder="false" />
+  <defs
+     id="defs2">
+    <marker
+       id="Arrow1Lstart"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="Arrow1Lstart">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(0.8,0,0,0.8,10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         id="path907" />
+    </marker>
+    <marker
+       id="Arrow1Lend"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         inkscape:connector-curvature="0"
+         d="M 0,0 5,-5 -12.5,0 5,5 Z"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.00000003pt;marker-start:none"
+         id="path910" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <path
+       style="fill-rule:evenodd;stroke:#191919;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.01;fill:#000000"
+       id="blank"
+       d="M475 350L481.0 350L966.774653882 350L971.774653882 350L1187.73263424 391.977978983L1184.87049931 406.702386735L998.361334455 370.448677613A900 900 1 0 0 971.774653882 370A10.0 10.0 1 0 0 963.774653882 365L963.774653882 365L588.399321774 365.0A64.0196269754 64.0196269754 1 0 0 536.196930756 390.830579145L29.2352187016 426.280795447L26.4449597518 386.378233436L475.348782369 354.987820251z" />
+    <text
+       id="param_out"
+       x="141.63815"
+       y="28.077538"
+       xml:space="preserve"><tspan
+         id="tspan1062"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Type of Neck:</tspan><tspan
+         id="tspan1064"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">Neck-Thru</tspan><tspan
+         id="tspan1066"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Scale:</tspan><tspan
+         id="tspan1068"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">647.70 mm [25 1/2 in]</tspan><tspan
+         id="tspan1070"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Frets:</tspan><tspan
+         id="tspan1072"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">24</tspan><tspan
+         id="tspan1074"
+         xml:space="preserve"
+         x="0"
+         dy="1.7em">Headstock - Length:</tspan><tspan
+         id="tspan1076"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">220.00 mm [8.6614 in]</tspan><tspan
+         id="tspan1078"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Headstock - Angle:</tspan><tspan
+         id="tspan1080"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">11.00 Degrees</tspan><tspan
+         id="tspan1082"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Headstock - Thickness:</tspan><tspan
+         id="tspan1084"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">15.00 mm [0.5906 in]</tspan><tspan
+         id="tspan1086"
+         xml:space="preserve"
+         x="0"
+         dy="1.7em">Volute - Height:</tspan><tspan
+         id="tspan1088"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">5.00 mm [0.1969 in]</tspan><tspan
+         id="tspan1090"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Volute - Headstock run:</tspan><tspan
+         id="tspan1092"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">5.00 mm [0.1969 in]</tspan><tspan
+         id="tspan1094"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Volute - Neck run:</tspan><tspan
+         id="tspan1096"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">8.00 mm [0.3150 in]</tspan><tspan
+         id="tspan1098"
+         xml:space="preserve"
+         x="0"
+         dy="1.7em">Nut - Thickness:</tspan><tspan
+         id="tspan1100"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">5.00 mm [0.1969 in]</tspan><tspan
+         id="tspan1102"
+         xml:space="preserve"
+         x="0"
+         dy="1.7em">Neck - Angle:</tspan><tspan
+         id="tspan1104"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">4.00 Degrees</tspan><tspan
+         id="tspan1106"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Neck - Thickness:</tspan><tspan
+         id="tspan1108"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">15.00 mm [0.5906 in]</tspan><tspan
+         id="tspan1110"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Neck - Join fret:</tspan><tspan
+         id="tspan1112"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">15</tspan><tspan
+         id="tspan1114"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Neck - Space after last fret:</tspan><tspan
+         id="tspan1116"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">6.00 mm [0.2362 in]</tspan><tspan
+         id="tspan1118"
+         xml:space="preserve"
+         x="0"
+         dy="1.7em">Body - Thickness:</tspan><tspan
+         id="tspan1120"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">45.00 mm [1.7717 in]</tspan><tspan
+         id="tspan1122"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Body - Length:</tspan><tspan
+         id="tspan1124"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">450.00 mm [17.7165 in]</tspan><tspan
+         id="tspan1126"
+         xml:space="preserve"
+         x="0"
+         dy="1.2em">Body - Top thickness:</tspan><tspan
+         id="tspan1128"
+         xml:space="preserve"
+         x="5cm"
+         style="font-weight:bold">5.00 mm [0.1969 in]</tspan></text>
+  </g>
+  <script
+     type="text/python"
+     id="pyscript_main"># Script: main
+
+# Note: Units = mm, grad
+
+draw_neck_profile(
+    neck = neck(
+        scale = 647.7, 
+        frets = 24, 
+        neck_type = 0, # 0 = thru, 1 = set, 2 = bolt 
+        angle = 4.0, 
+        thickness = 15, 
+        join_fret = 15, 
+        last_fret_space = 6.0), 
+    headstock = headstock(
+        length = 220, 
+        angle = 11, 
+        thickness = 15), 
+    volute = volute(
+        height = 5, 
+        headstock_space = 30, 
+        neck_space = 8), 
+    nut = nut(
+        thickness = 5), 
+    tenon = tenon(
+        thickness = 30, 
+        length = 15, 
+        base_thickness = 6), 
+    body = body(
+        thickness = 45, 
+        length = 450, 
+        top_thickness = 5), 
+    position = (475,350))
+</script>
+  <script
+     type="text/python"
+     id="pyscript_guitar"># Script: guitar
+
+from math import radians, cos, sin
+from pyscript import svg
+from fractions import Fraction    
+from lxml import etree
+
+# 12th root of 2
+FRET_RATIO = 1.059463 # 2^(1/12)
+
+def fret(n, scale):
+    &quot;&quot;&quot; Fret distance from nut &quot;&quot;&quot;
+    return scale * (1 - (1/FRET_RATIO**n))
+
+def headstock(length, angle, thickness):
+    return (length, angle, thickness);
+
+def neck(scale, frets, neck_type, angle, thickness, join_fret, last_fret_space):
+    return (scale, frets, neck_type, angle, thickness, join_fret, last_fret_space)
+
+def volute(height, headstock_space, neck_space):
+    return (height, headstock_space, neck_space)
+    
+def nut(thickness):
+    return (thickness,)
+    
+def body(thickness, length, top_thickness):
+    return (thickness, length, top_thickness)
+
+def tenon(thickness, length, base_thickness):
+    return (thickness, length, base_thickness)
+
+def position(x, y):
+    return (x,y)
+
+def dec_to_proper_frac(dec):
+	dec = float(dec)
+	sign = &quot;-&quot; if dec &lt; 0 else &quot;&quot;
+	dec = abs(dec)
+	a = int(dec)
+	frac = Fraction(str(dec - a))
+	if (frac.numerator &gt; 64):
+		return &quot;%s%0.4f&quot; % (sign, dec)
+	else:
+		return &quot;%s%d %d/%d&quot; % (sign, a, frac.numerator, frac.denominator)
+
+def add_text_line(text, label, value, spacing=0):
+	attr = {'x':'0', 'dy':'%0.1fem' % (1.2 + spacing,),'{http://www.w3.org/XML/1998/namespace}space':'preserve'}
+	span = etree.SubElement(text, 'tspan', attr)
+	span.text = str(label)
+	attr = {'style':'font-weight:bold', 'x':'5cm','{http://www.w3.org/XML/1998/namespace}space':'preserve'}
+	span = etree.SubElement(text, 'tspan', attr)
+	span.text = str(value)
+	
+def val_in_mm_and_inch(v):
+	v = float(v)
+	return &quot;%0.2f mm [%s in]&quot; % (v, dec_to_proper_frac(v/25.4))
+
+def draw_neck_profile(neck, headstock, volute, nut, tenon, body, position = (0,0)):
+
+    # Position
+    (posx, posy) = position
+
+    # Neck
+    (scale, frets, neck_type, neck_angle, neck_thickness, neck_join_fret, neck_last_fret_space) = neck
+    
+    # Body
+    (body_thickness, body_length, body_top_thickness) = body
+    
+    # Tenon
+    (setneck_tenon_thickness, setneck_tenon, setneck_tenon_base) = tenon
+
+    # Nut
+    (nut_thickness,) = nut
+    
+    # Headstock
+    (hs_length, hs_angle, hs_thickness) = headstock
+
+    # Volute
+    (volute_height, volute_hs_space, volute_neck_space) = volute
+    
+    # Path style
+    style = {
+        'fill' : '#000000',
+        'fill-rule' : 'evenodd',
+        'stroke' : '#191919',
+        'stroke-width' : '0.01',
+        'stroke-miterlimit': '4',
+        'stroke-dasharray' : 'none'
+    }
+
+    if neck_type == 1:
+	    body_length = setneck_tenon
+	    body_thickness = body_thickness - setneck_tenon_base
+	    body_top_thickness = body_thickness - setneck_tenon_thickness
+    elif neck_type == 2:
+	    body_length = 0
+	    body_top_thickness = body_thickness
+	
+    path = svg.PathObject(style=style)
+    
+    # Fretboard top surface -------------------------------------------------------
+    last_fret = fret(frets, scale)
+    path.move_to(posx,posy) # Start at fretboard body end
+    path.line(neck_last_fret_space, 0)
+    path.line(last_fret, 0)
+    path.line(nut_thickness, 0)
+
+    # Headstock top surface -------------------------------------------------------
+    angle_rad = radians(hs_angle)
+    x1 = hs_length * cos(angle_rad)
+    y1 = hs_length * sin(angle_rad)
+    path.line(x1,y1) # Headstock end top
+
+    angle_rad = radians(90 + hs_angle)
+    x1 = hs_thickness * cos(angle_rad)
+    y1 = hs_thickness * sin(angle_rad)
+    path.line(x1,y1) # Headstock end bottom
+
+    # Headstock bottom surface ----------------------------------------------------
+    if volute_height == 0:
+	    hs_to_neck = abs(neck_thickness - hs_thickness)
+	    angle_rad = angle_rad + radians(90)
+	    l = hs_length - hs_to_neck
+	    x1 = l * cos(angle_rad)
+	    y1 = l * sin(angle_rad)
+	    path.line(x1,y1) # Headstock nut bottom
+	    x1 = hs_to_neck * cos(angle_rad) - hs_to_neck
+	    y1 = hs_to_neck * sin(angle_rad) + (neck_thickness - hs_thickness)
+	    path.line(x1,y1) # Headstock nut bottom
+    else:
+	    hs_to_neck = abs(neck_thickness - hs_thickness)
+	    angle_rad = angle_rad + radians(90)
+	    l = hs_length - volute_hs_space
+	    x1 = l * cos(angle_rad)
+	    y1 = l * sin(angle_rad)	
+	    path.line(x1,y1) # &lt;---- Headstock volute start
+	    r = 900
+	    ex = posx + neck_last_fret_space + last_fret + nut_thickness - volute_neck_space
+	    ey = posy + neck_thickness
+	    path.arc_to(r,r,1,0,0,ex+volute_neck_space,ey+volute_height) # Volute headstock arc
+	    r = volute_height * 2.0
+	    path.arc_to(r,r,1,0,0,ex,ey) # Volute headstock arc
+	    path.line(0,0) # Headstock nut bottom
+	    
+    # Neck bottom -----------------------------------------------------------------
+    join_fret = fret(neck_join_fret, scale)
+    x1 = -join_fret + hs_to_neck
+    y1 = 0.0
+    path.line(x1,y1) # Neck join
+
+    # Neck join arc ---------------------------------------------------------------
+    angle_rad = radians(90 - neck_angle)
+    ex = posx + body_thickness * cos(angle_rad)
+    ey = posy + body_thickness * sin(angle_rad)
+    # at this point (ex,ey) is a point at body thickness perpendicular to start position (fretboard end)
+    angle_rad = radians(-neck_angle)
+    l = (neck_last_fret_space + (fret(frets, scale) - fret(neck_join_fret, scale))) * 0.5 # l is 50% of distance from body-neck join to fretboard end
+    ex = ex + l * cos(angle_rad)
+    ey = ey + l * sin(angle_rad)
+    r = l * 1.1
+    path.arc_to(r,r,1,0,0,ex,ey) # Neck join
+
+    # Body bottom surface ---------------------------------------------------------
+    angle_rad = radians(180 -  neck_angle)
+    x1 = (body_length+l) * cos(angle_rad)
+    y1 = (body_length+l) * sin(angle_rad)
+    path.line(x1,y1) # Body bottom end
+
+    angle_rad = angle_rad + radians(90)
+    h = body_thickness - body_top_thickness
+    x1 = h * cos(angle_rad)
+    y1 = h * sin(angle_rad)
+    path.line(x1,y1) # Body top end
+
+    angle_rad = angle_rad + radians(90)
+    h = body_length
+    x1 = h * cos(angle_rad)
+    y1 = h * sin(angle_rad)
+    path.line(x1,y1) # Body top end neck
+
+    path.close()
+    path.create(ink, ink.getElementById('layer1'), id='blank')
+
+    # Show parameters -------------------------------------------------------
+
+    types_of_neck = ['Neck-Thru', 'Set-Neck', 'Bolted-Neck']
+    text = ink.getElementById('param_out')
+    if text is None:
+        attr = {'x':'100', 'y':'37', 'id': 'param_out','{http://www.w3.org/XML/1998/namespace}space':'preserve'}
+        text = etree.SubElement(ink.getElementById('layer1'), 'text', attr)
+
+
+    for span in list(text):
+	    text.remove(span)
+	    
+    add_text_line(text, 'Type of Neck:', types_of_neck[neck_type])
+    add_text_line(text, 'Scale:', val_in_mm_and_inch(scale))
+    add_text_line(text, 'Frets:', frets)
+
+    add_text_line(text, 'Headstock - Length:', val_in_mm_and_inch(hs_length), spacing=0.5)
+    add_text_line(text, 'Headstock - Angle:', '%0.2f Degrees' % hs_angle)
+    add_text_line(text, 'Headstock - Thickness:', val_in_mm_and_inch(hs_thickness))
+
+    add_text_line(text, 'Volute - Height:', val_in_mm_and_inch(volute_height), spacing=0.5)
+    add_text_line(text, 'Volute - Headstock run:', val_in_mm_and_inch(volute_height))
+    add_text_line(text, 'Volute - Neck run:', val_in_mm_and_inch(volute_neck_space))
+
+    add_text_line(text, 'Nut - Thickness:', val_in_mm_and_inch(nut_thickness), spacing=0.5)
+
+    add_text_line(text, 'Neck - Angle:', '%0.2f Degrees' % neck_angle, spacing=0.5)
+    add_text_line(text, 'Neck - Thickness:', val_in_mm_and_inch(neck_thickness))
+    add_text_line(text, 'Neck - Join fret:', neck_join_fret)
+    add_text_line(text, 'Neck - Space after last fret:', val_in_mm_and_inch(neck_last_fret_space))
+
+    if neck_type == 0:
+	    add_text_line(text, 'Body - Thickness:', val_in_mm_and_inch(body_thickness), spacing=0.5)
+	    add_text_line(text, 'Body - Length:', val_in_mm_and_inch(body_length))
+	    add_text_line(text, 'Body - Top thickness:', val_in_mm_and_inch(body_top_thickness))
+
+    if neck_type == 1:
+	    add_text_line(text, 'Tenon - Length:', val_in_mm_and_inch(setneck_tenon), spacing=0.5)
+	    add_text_line(text, 'Tenon - Thickness:', val_in_mm_and_inch(setneck_tenon_thickness))
+	    add_text_line(text, 'Tenon - Body Base:', val_in_mm_and_inch(setneck_tenon_base))
+	
+
+    
+</script>
+</svg>
