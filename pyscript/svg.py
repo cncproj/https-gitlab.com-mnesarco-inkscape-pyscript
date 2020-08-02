@@ -55,12 +55,12 @@ class PathObject(object):
         else:
             self._node = None
 
-    def create(self, svgdoc, parent, id):
-        node = svgdoc.getElementById(id)
+    def create(self, svgdoc, parent, elem_id):
+        node = svgdoc.select_first('#%s' % elem_id)
         if node is None:
             attrs = copy.copy(self._attrib)
             attrs['style'] = str(inkex.Style(self._style))
-            attrs['id'] = id
+            attrs['id'] = elem_id
             attrs['d'] = str(Path(self._p))
             self._node = etree.SubElement(parent, 'path', attrs)
         else:

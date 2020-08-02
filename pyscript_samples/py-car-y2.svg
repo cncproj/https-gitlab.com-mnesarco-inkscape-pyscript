@@ -1,6 +1,4 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
 <svg
    xmlns:dc="http://purl.org/dc/elements/1.1/"
    xmlns:cc="http://creativecommons.org/ns#"
@@ -9,29 +7,35 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="py-car-y2.svg"
-   inkscape:version="0.92.4 (unknown)"
-   id="svg1617"
-   version="1.1"
-   viewBox="0 0 210 297"
+   width="210mm"
    height="297mm"
-   width="210mm">
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg1617"
+   inkscape:version="1.0 (1.0+r73+1)"
+   sodipodi:docname="py-car-y2.svg">
   <defs
      id="defs1611" />
   <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.26931669"
-     inkscape:cx="-334.36728"
-     inkscape:cy="836.11431"
-     inkscape:document-units="mm"
-     inkscape:current-layer="svg1617"
+     inkscape:window-maximized="1"
+     inkscape:window-y="0"
+     inkscape:window-x="0"
+     inkscape:window-height="1023"
+     inkscape:window-width="1920"
+     inkscape:document-rotation="0"
+     inkscape:snap-global="false"
      showgrid="false"
-     inkscape:snap-global="false" />
+     inkscape:current-layer="svg1617"
+     inkscape:document-units="mm"
+     inkscape:cy="836.11431"
+     inkscape:cx="-334.36728"
+     inkscape:zoom="0.31426795"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base" />
   <metadata
      id="metadata1614">
     <rdf:RDF>
@@ -45,37 +49,37 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
+     id="layer1"
      inkscape:groupmode="layer"
-     id="layer1" />
+     inkscape:label="Layer 1" />
   <path
-     d="M0 250M-19.0 250A19.0 19.0 0 0 1 0.0 231.0A19.0 19.0 1 0 1 19.0 250.0A19.0 19.0 1 0 1 0.0 269.0A19.0 19.0 1 0 1 -19.0 250.0M0.0 250.0M-15.25 250.0A15.25 15.25 0 0 1 0.0 234.75A15.25 15.25 1 0 1 15.25 250.0A15.25 15.25 1 0 1 0.0 265.25A15.25 15.25 1 0 1 -15.25 250.0M0.0 250.0M-3.175 250.0A3.175 3.175 0 0 1 0.0 246.825A3.175 3.175 1 0 1 3.175 250.0A3.175 3.175 1 0 1 0.0 253.175A3.175 3.175 1 0 1 -3.175 250.0M0.0 250.0"
-     id="wheel1"
-     style="stroke-dasharray:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;fill:none"
+     sodipodi:nodetypes="ccssscccccssscccc"
      inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccssscccccssscccc" />
+     style="fill:none;stroke:#000000;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.1"
+     id="wheel1"
+     d="M 0 250 M -19 250 A 19 19 0 0 1 0 231 A 19 19 1 0 1 19 250 A 19 19 1 0 1 0 269 A 19 19 1 0 1 -19 250 M 0 250 M -15.25 250 A 15.25 15.25 0 0 1 0 234.75 A 15.25 15.25 1 0 1 15.25 250 A 15.25 15.25 1 0 1 0 265.25 A 15.25 15.25 1 0 1 -15.25 250 M 0 250 M -3.175 250 A 3.175 3.175 0 0 1 0 246.825 A 3.175 3.175 1 0 1 3.175 250 A 3.175 3.175 1 0 1 0 253.175 A 3.175 3.175 1 0 1 -3.175 250 M 0 250" />
   <path
-     style="stroke-dasharray:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;fill:none"
+     d="M 200 250 M 181 250 A 19 19 0 0 1 200 231 A 19 19 0 0 1 219 250 A 19 19 0 0 1 200 269 A 19 19 0 0 1 181 250 M 200 250 M 184.75 250 A 15.25 15.25 0 0 1 200 234.75 A 15.25 15.25 0 0 1 215.25 250 A 15.25 15.25 0 0 1 200 265.25 A 15.25 15.25 0 0 1 184.75 250 M 200 250 M 196.825 250 A 3.175 3.175 0 0 1 200 246.825 A 3.175 3.175 0 0 1 203.175 250 A 3.175 3.175 0 0 1 200 253.175 A 3.175 3.175 0 0 1 196.825 250 M 200 250"
      id="wheel2"
-     d="M200 250M181.0 250A19.0 19.0 0 0 1 200.0 231.0A19.0 19.0 1 0 1 219.0 250.0A19.0 19.0 1 0 1 200.0 269.0A19.0 19.0 1 0 1 181.0 250.0M200.0 250.0M184.75 250.0A15.25 15.25 0 0 1 200.0 234.75A15.25 15.25 1 0 1 215.25 250.0A15.25 15.25 1 0 1 200.0 265.25A15.25 15.25 1 0 1 184.75 250.0M200.0 250.0M196.825 250.0A3.175 3.175 0 0 1 200.0 246.825A3.175 3.175 1 0 1 203.175 250.0A3.175 3.175 1 0 1 200.0 253.175A3.175 3.175 1 0 1 196.825 250.0M200.0 250.0" />
+     style="fill:none;stroke:#000000;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.1" />
   <path
-     style="stroke-dasharray:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;fill:none"
+     inkscape:connector-curvature="0"
+     d="M 200 156 M 181 156 A 19 19 0 0 1 200 137 A 19 19 0 0 1 219 156 A 19 19 0 0 1 200 175 A 19 19 0 0 1 181 156 M 200 156 M 184.75 156 A 15.25 15.25 0 0 1 200 140.75 A 15.25 15.25 0 0 1 215.25 156 A 15.25 15.25 0 0 1 200 171.25 A 15.25 15.25 0 0 1 184.75 156 M 200 156 M 196.825 156 A 3.175 3.175 0 0 1 200 152.825 A 3.175 3.175 0 0 1 203.175 156 A 3.175 3.175 0 0 1 200 159.175 A 3.175 3.175 0 0 1 196.825 156 M 200 156"
      id="wheel3"
-     d="M200 156.0M181.0 156.0A19.0 19.0 0 0 1 200.0 137.0A19.0 19.0 1 0 1 219.0 156.0A19.0 19.0 1 0 1 200.0 175.0A19.0 19.0 1 0 1 181.0 156.0M200.0 156.0M184.75 156.0A15.25 15.25 0 0 1 200.0 140.75A15.25 15.25 1 0 1 215.25 156.0A15.25 15.25 1 0 1 200.0 171.25A15.25 15.25 1 0 1 184.75 156.0M200.0 156.0M196.825 156.0A3.175 3.175 0 0 1 200.0 152.825A3.175 3.175 1 0 1 203.175 156.0A3.175 3.175 1 0 1 200.0 159.175A3.175 3.175 1 0 1 196.825 156.0M200.0 156.0"
-     inkscape:connector-curvature="0" />
+     style="fill:none;stroke:#000000;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.1" />
   <path
-     style="stroke-dasharray:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;fill:none"
+     inkscape:connector-curvature="0"
+     d="M 0 156 M -19 156 A 19 19 0 0 1 0 137 A 19 19 0 0 1 19 156 A 19 19 0 0 1 0 175 A 19 19 0 0 1 -19 156 M 0 156 M -15.25 156 A 15.25 15.25 0 0 1 0 140.75 A 15.25 15.25 0 0 1 15.25 156 A 15.25 15.25 0 0 1 0 171.25 A 15.25 15.25 0 0 1 -15.25 156 M 0 156 M -3.175 156 A 3.175 3.175 0 0 1 0 152.825 A 3.175 3.175 0 0 1 3.175 156 A 3.175 3.175 0 0 1 0 159.175 A 3.175 3.175 0 0 1 -3.175 156 M 0 156"
      id="wheel4"
-     d="M0 156.0M-19.0 156.0A19.0 19.0 0 0 1 0.0 137.0A19.0 19.0 1 0 1 19.0 156.0A19.0 19.0 1 0 1 0.0 175.0A19.0 19.0 1 0 1 -19.0 156.0M0.0 156.0M-15.25 156.0A15.25 15.25 0 0 1 0.0 140.75A15.25 15.25 1 0 1 15.25 156.0A15.25 15.25 1 0 1 0.0 171.25A15.25 15.25 1 0 1 -15.25 156.0M0.0 156.0M-3.175 156.0A3.175 3.175 0 0 1 0.0 152.825A3.175 3.175 1 0 1 3.175 156.0A3.175 3.175 1 0 1 0.0 159.175A3.175 3.175 1 0 1 -3.175 156.0M0.0 156.0"
-     inkscape:connector-curvature="0" />
+     style="fill:none;stroke:#000000;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.1" />
   <path
-     d="M-29.0 279.0L-29.0 127.0L102.0 -33.0L229.0 -33.0L229.0 279.0z"
+     inkscape:connector-curvature="0"
+     style="fill:none;stroke:#000000;stroke-dasharray:none;stroke-miterlimit:4;stroke-width:0.1"
      id="border"
-     style="stroke-dasharray:none;stroke:#000000;stroke-width:0.3;stroke-miterlimit:4;fill:none"
-     inkscape:connector-curvature="0" />
+     d="M -29 279 L -29 127 L 102 -33 L 229 -33 L 229 279 z" />
   <script
-     type="text/python"
-     id="pyscript_main"># Script: main
+     id="pyscript_main"
+     type="text/python"># Script: main
 
 from pyscript import svg
 
@@ -107,16 +111,16 @@ w1.move( x0, y0 )
 w1.circle_center(r=wheel_outer/2)
 w1.circle_center(r=wheel_inner/2)
 w1.circle_center(r=wheel_inter/2)
-w1.create(ink, ink.document.getroot(), id=&quot;wheel1&quot;)
+w1.create(ink, ink.document.getroot(), elem_id=&quot;wheel1&quot;)
 
 w1.translate(y_space, 0)
-w1.create(ink, ink.document.getroot(), id=&quot;wheel2&quot;)
+w1.create(ink, ink.document.getroot(), elem_id=&quot;wheel2&quot;)
 
 w1.translate(0, -z_space)
-w1.create(ink, ink.document.getroot(), id=&quot;wheel3&quot;)
+w1.create(ink, ink.document.getroot(), elem_id=&quot;wheel3&quot;)
 
 w1.translate(-y_space, 0)
-w1.create(ink, ink.document.getroot(), id=&quot;wheel4&quot;)
+w1.create(ink, ink.document.getroot(), elem_id=&quot;wheel4&quot;)
 
 border = Path(style=line_style) 
 border.move(x0 - wheel_outer/2 - margin, y0 + wheel_outer/2 + margin)
@@ -127,10 +131,10 @@ border.line_to(x0 + y_space + wheel_outer/2 + margin, border.end_point()[1])
 border.line_to(border.end_point()[0], y0 + wheel_outer/2 + margin)
 border.close()
 
-border.create(ink, ink.document.getroot(), id=&quot;border&quot;)
+border.create(ink, ink.document.getroot(), elem_id=&quot;border&quot;)
 
 
-rect = ink.getElementById('rect853')
+rect = ink.select_first('#rect853')
 rect.attrib['transform'] = 'rotate(30)'
 
 
@@ -139,11 +143,12 @@ rect.attrib['transform'] = 'rotate(30)'
 
 </script>
   <rect
-     style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers"
-     id="rect853"
-     width="43.764782"
+     transform="rotate(30)"
+     rx="5.210093"
+     y="-16.033911"
+     x="-23.4804"
      height="47.585514"
-     x="-12.504224"
-     y="-10.048164"
-     rx="5.210093" />
+     width="43.764782"
+     id="rect853"
+     style="opacity:1;fill:#00ff00;fill-opacity:1;stroke:#000000;stroke-width:0.3;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:stroke fill markers" />
 </svg>

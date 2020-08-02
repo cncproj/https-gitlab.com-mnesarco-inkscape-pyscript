@@ -34,7 +34,7 @@ from inkex.deprecated import deprecate
 
 version = "0.1"
 
-SELECTOR = re.compile(r'#(?P<ident>[a-zA-Z._\-:]+)|(?P<tag>(\w+:)*\w+)')
+SELECTOR = re.compile(r'#(?P<ident>[a-zA-Z0-9._\-:]+)|(?P<tag>(\w+:)*\w+)')
 
 class PYScriptExceptionInfo(object):
     def __init__(self, lineno, message):
@@ -91,10 +91,8 @@ class PYScript(inkex.EffectExtension):
 
     @deprecate
     def getElementById(self, id_):
-        """select('#%s' % id)[0]"""
-        nodes = self.select('#%s' % id_)
-        if nodes:
-            return nodes[0]
+        """select_first('#%s' % id)"""
+        return self.select_first('#%s' % id_)
 
     def select(self, selector):
         nodes = []
