@@ -8,6 +8,8 @@ This is a very work in progress project to add general purpose python scripting 
 
 Look at pyscript_samples/ to see how it works. 
 
+[big picture]!(/doc/pyscript_doc.png)
+
 ## Install
 
 *Requires Inkscape 1.0+, Python 3.5+, Gtk 3.x*
@@ -18,7 +20,7 @@ Copy all files and folders inside you inkscape extensions dir, in my environment
  - /usr/share/inkscape/extensions/
 
 
-Has been tested only on Linux Mint 18.x
+Has been tested only on Linux Mint 19.2
 
 ## Try
 
