@@ -27,11 +27,14 @@ import gi
 gi.require_version('Gtk', '3.0')
 gi.require_version('GtkSource', '3.0')
 
-import inkex, copy, ast, sys, traceback
+import inkex, copy, ast, sys, traceback, re
 from pyscript import ui, svg
 from lxml import etree
+from inkex.deprecated import deprecate
 
 version = "0.1"
+
+SELECTOR = re.compile(r'#(?P<ident>[a-zA-Z._\-:]+)|(?P<tag>(\w+:)*\w+)')
 
 class PYScriptExceptionInfo(object):
     def __init__(self, lineno, message):
@@ -72,7 +75,7 @@ class PYScriptInfo(object):
             line_number = err.lineno
         except Exception as err:
             error_class = err.__class__.__name__
-            detail = err.args[0]
+            detail = err.args[0] + ' ' + traceback.format_exc()
             cl, exc, tb = sys.exc_info()
             line_number = traceback.extract_tb(tb)[-1][1]
             del(cl, exc, tb)
@@ -86,11 +89,35 @@ class PYScript(inkex.EffectExtension):
         self.__edit = edit
         self.scripts = dict()
 
-    def getElementById(self, id):
-        root = self.document.getroot()
-        nodes = root.xpath("//*[@id='%s']" % id)
+    @deprecate
+    def getElementById(self, id_):
+        """select('#%s' % id)[0]"""
+        nodes = self.select('#%s' % id_)
         if nodes:
             return nodes[0]
+
+    def select(self, selector):
+        nodes = []
+        for m in SELECTOR.finditer(selector):
+            ident = m.group('ident')
+            if ident:
+                nodes += self.xpath("//*[@id='%s']" % ident)
+            else:
+                tag = m.group('tag')
+                if tag:
+                    if ':' in tag:
+                        nodes += self.xpath("//%s" % tag)
+                    else:
+                        nodes += self.xpath("//svg:%s" % tag)
+        return nodes
+
+    def select_first(self, selector):
+        nodes = self.select(selector)
+        if nodes:
+            return nodes[0]
+
+    def xpath(self, expr):
+        return self.document.xpath(expr, namespaces=inkex.NSS)
 
     def create_script(self, sid = 'pyscript_main'):
         root = self.document.getroot()
