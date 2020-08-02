@@ -29,6 +29,7 @@ gi.require_version('GtkSource', '3.0')
 
 import inkex, copy, ast, sys, traceback
 from pyscript import ui, svg
+from lxml import etree
 
 version = "0.1"
 
@@ -78,16 +79,22 @@ class PYScriptInfo(object):
         message = "%s at line %d of %s: %s" % (error_class, line_number, self.label, detail)
         return [False, self, PYScriptExceptionInfo(lineno=line_number, message=message)]
 
-class PYScript(inkex.Effect):
+class PYScript(inkex.EffectExtension):
 
     def __init__(self, edit = True):
-        inkex.Effect.__init__(self)
+        inkex.EffectExtension.__init__(self)
         self.__edit = edit
         self.scripts = dict()
 
+    def getElementById(self, id):
+        root = self.document.getroot()
+        nodes = root.xpath("//*[@id='%s']" % id)
+        if nodes:
+            return nodes[0]
+
     def create_script(self, sid = 'pyscript_main'):
         root = self.document.getroot()
-        node = inkex.etree.SubElement(root, 'script', {'id' : sid, 'type': 'text/python'})
+        node = etree.SubElement(root, 'script', {'id' : sid, 'type': 'text/python'})
         script = PYScriptInfo(node)
         script.source("\n".join(['# Script: %s' % script.label,
             '"""', 
@@ -164,11 +171,12 @@ class PYScript(inkex.Effect):
             ide = ui.MainWindow(self)
             ide.show()
         else:
-            self.run()
+            self.run_script()
 
-    def run(self):
+    def run_script(self):
         (ok, results) = self.execute()
         if not ok:
             for (ok, script, err) in results:
                 if not ok:
                     inkex.errormsg(err.message)
+

@@ -10,9 +10,9 @@ Look at pyscript_samples/ to see how it works.
 
 ## Install
 
-*Requires Inkscape 0.92.x, Python 2.7+, Gtk 3.x*
+*Requires Inkscape 1.0+, Python 3.5+, Gtk 3.x*
 
-Copy all files and folders inside you inkscape extensions dir, in my environment (Mint 18 + Inskacape 0.92.4 + Python 2.7.12) there are two possible places:
+Copy all files and folders inside you inkscape extensions dir, in my environment (Mint 18 + Inskacape 1.0 + Python 3.5) there are two possible places:
 
  - $HOME/.config/inkscape/extensions/
  - /usr/share/inkscape/extensions/

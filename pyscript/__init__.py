@@ -33,7 +33,7 @@ from os.path import abspath, dirname, join
 PYSCRIPT_DIR = abspath(dirname(__file__))
 GObject.type_register(GtkSource.View)
 
-import ui
-import svg
+from . import ui
+from . import svg
 
 __all__ = ['ui', 'svg', 'main']

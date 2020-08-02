@@ -23,11 +23,13 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 """
 
 import math
-import simplepath as sp
-import simplestyle as ss
 from lxml import etree
 import collections
 import copy
+import inkex
+
+from inkex.transforms import Transform
+from inkex.paths import Path
 
 class PathObject(object):
     
@@ -42,12 +44,12 @@ class PathObject(object):
         return (x+dx, y+dy)
 
     def parse(self, d):
-        self._p = sp.parsePath(d)
+        self._p = Path(d).to_arrays()
 
     def _parseNode(self, node):
         if node is not None:
-            self._p = sp.parsePath(node.attrib['d'])
-            self._style = ss.parseStyle(node.attrib['style'])
+            self._p = Path(node.attrib['d']).to_arrays()
+            self._style = dict(inkex.Style.parse_str(node.attrib['style']))
             self._attrib = copy.copy(node.attrib)
             self._node = node
         else:
@@ -57,9 +59,9 @@ class PathObject(object):
         node = svgdoc.getElementById(id)
         if node is None:
             attrs = copy.copy(self._attrib)
-            attrs['style'] = ss.formatStyle(self._style)
+            attrs['style'] = str(inkex.Style(self._style))
             attrs['id'] = id
-            attrs['d'] = sp.formatPath(self._p)
+            attrs['d'] = str(Path(self._p))
             self._node = etree.SubElement(parent, 'path', attrs)
         else:
             self.commit(node)
@@ -72,9 +74,9 @@ class PathObject(object):
         if len(self._attrib) > 0:
             node.attrib.update(self._attrib)
         if len(self._style) > 0:
-            node.attrib['style'] = ss.formatStyle(self._style)
+            node.attrib['style'] = str(inkex.Style(self._style))
         if self._p is not None:
-            node.attrib['d'] = sp.formatPath(self._p)
+            node.attrib['d'] = str(Path(self._p))
 
     def attrib(self, name, value = None):
         if value is not None:
@@ -91,15 +93,15 @@ class PathObject(object):
         self.rotate_abs(a, x+cx, y+cy)
             
     def rotate_abs(self, a, cx=0, cy=0):
-        sp.rotatePath(self._p, a, cx, cy)
+        self._p[:] = Path(self._p).rotate(math.degrees(a), (cx, cy)).to_arrays()
             
     def scale(self, fx, fy=None):
         if fy is None:
             fy = fx
-        sp.scalePath(self._p, fx, fy)
+        self._p[:] = Path(self._p).scale(fx, fy).to_arrays()
 
     def translate(self, dx, dy):
-        sp.translatePath(self._p, dx, dy)
+        self._p[:] = Path(self._p).translate(dx, dy).to_arrays()
 
     def start_point(self):
         c, params = self._p[0]
@@ -121,7 +123,7 @@ class PathObject(object):
 
     def translate_to(self, x, y):
         (sx, sy, c) = self.start_point()
-        sp.translatePath(self._p, x - sx, y - sy)
+        self._p[:] = Path(self._p).translate(x - sx, y - sy).to_arrays()
 
     def move(self, dx, dy, mode='M'):
         if len(self._p) > 0:

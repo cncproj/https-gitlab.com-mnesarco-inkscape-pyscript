@@ -20,14 +20,13 @@
 <inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
     <_name>Run and Update</_name>
     <id>com.fdmtech.inkscape.pyscript.run</id>
-    <dependency type="executable" location="extensions">pyscript_run.py</dependency>
-    <dependency type="executable" location="extensions">inkex.py</dependency>
+    <dependency type="executable" location="inx">pyscript_run.py</dependency>
     <effect>
       <effects-menu>
         <submenu _name="Python Scripting"/>
       </effects-menu>
     </effect>
     <script>
-        <command reldir="extensions" interpreter="python">pyscript_run.py</command>
+        <command location="inx" interpreter="python">pyscript_run.py</command>
     </script>
 </inkscape-extension>

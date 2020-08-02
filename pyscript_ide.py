@@ -24,4 +24,4 @@ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
 from pyscript import main
 
 if __name__ == '__main__':
-    main.PYScript().affect()
+    main.PYScript().run()
