@@ -8,7 +8,7 @@ This is a very work in progress project to add general purpose python scripting 
 
 Look at pyscript_samples/ to see how it works. 
 
-[big picture]!(/doc/pyscript_doc.png)
+![big picture](doc/pyscript_doc.png)
 
 ## Install
 
