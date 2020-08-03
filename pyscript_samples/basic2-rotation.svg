@@ -17,24 +17,24 @@
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="1"
-     inkscape:window-y="0"
-     inkscape:window-x="0"
-     inkscape:window-height="1023"
-     inkscape:window-width="1920"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="548.57143"
-     inkscape:cx="-121.42857"
-     inkscape:zoom="0.408418"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.408418"
+     inkscape:cx="-121.42857"
+     inkscape:cy="548.57143"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:document-rotation="0"
+     inkscape:window-width="1920"
+     inkscape:window-height="1023"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -48,19 +48,19 @@
     </rdf:RDF>
   </metadata>
   <g
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1">
     <path
-       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-width:0.26458332px"
-       d="M 45.787 108.144 L 102.089 140.65 L 112.672 122.319 L 124.57 166.723 L 80.1663 178.621 L 89.6157 162.254 L 33.3137 129.748 Z"
-       id="arrow"
+       inkscape:label="#arrow"
        inkscape:connector-curvature="0"
-       inkscape:label="#arrow" />
+       id="arrow"
+       d="m 62.846387,118.20412 65.009993,-0.50563 -0.16533,-21.166116 32.75782,32.252186 -32.25122,32.75813 -0.14742,-18.89867 -65.009998,0.50563 z"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
   </g>
   <script
-     id="pyscript_main"
-     type="text/python"># Script: main
+     type="text/python"
+     id="pyscript_main"># Script: main
 &quot;&quot;&quot;
 Extension: pyscript v0.1 &lt;by Frank D. Martinez&gt;
 You can write valid python code here.

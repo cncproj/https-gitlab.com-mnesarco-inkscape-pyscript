@@ -92,7 +92,7 @@ class PYScript(inkex.EffectExtension):
     @deprecate
     def getElementById(self, id_):
         """select_first('#%s' % id)"""
-        return self.select_first('#%s' % id_)
+        return self.svg.getElementById(id_)
 
     def select(self, selector):
         nodes = []
